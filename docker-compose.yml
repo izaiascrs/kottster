@@ -8,6 +8,6 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "3000:3000"
+      - "5480:5480"
     environment:
-      - PORT=3000
+      - PORT=5480
