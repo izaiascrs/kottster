@@ -7,9 +7,9 @@ import schema from '../../kottster-app.json';
  */
 export const app = createApp({
   schema,
-  secretKey: '<your-secret-key-here>',
+  secretKey: 'r7Hij094CS3Abntye_BVNXgq1TR57X6_',
+  kottsterApiToken: 'oxW37C5z5ZPODUptr9TcSsKmV4EzNr8I',
 
-  
   /*
    * The identity provider configuration.
    * See https://kottster.app/docs/app-configuration/identity-provider
@@ -18,10 +18,10 @@ export const app = createApp({
     fileName: 'app.db',
 
     passwordHashAlgorithm: 'bcrypt',
-    jwtSecretSalt: '<your-jwt-secret-salt-here>',
+    jwtSecretSalt: 'io2ywdjv1sxcdEE2',
     
     /* The root admin user credentials */
     rootUsername: 'admin',
-    rootPassword: 'admin',
+    rootPassword: '123456789',
   }),
 });

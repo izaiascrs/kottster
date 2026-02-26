@@ -1,1 +1,7 @@
-{}
+{
+  "id": "6c8090da-9176-4167-96e3-1421efa2a2d7",
+  "meta": {
+    "name": "Admin Panel",
+    "icon": "https://web.kottster.app/icon.png"
+  }
+}

@@ -18,7 +18,7 @@ RUN npm install --omit=dev
 COPY --from=builder /app/dist ./dist
 COPY app.db ./app.db
 
-ENV PORT=3000
+ENV PORT=5480
 EXPOSE $PORT
 
 CMD ["node", "dist/server/server.cjs"]
